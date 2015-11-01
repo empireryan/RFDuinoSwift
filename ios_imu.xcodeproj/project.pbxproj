@@ -7,17 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		5DEFC8621AA46C2000E3516D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DEFC8611AA46C2000E3516D /* AppDelegate.swift */; };
-		5DEFC8641AA46C2000E3516D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DEFC8631AA46C2000E3516D /* ViewController.swift */; };
-		5DEFC8691AA46C2000E3516D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5DEFC8681AA46C2000E3516D /* Images.xcassets */; };
-		5DEFC86C1AA46C2000E3516D /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5DEFC86A1AA46C2000E3516D /* LaunchScreen.xib */; };
 		5DEFC8781AA46C2000E3516D /* RFDuino_iOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DEFC8771AA46C2000E3516D /* RFDuino_iOSTests.swift */; };
-		5DEFC8991AA46F9600E3516D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5DEFC8971AA46F9600E3516D /* Main.storyboard */; };
-		5DEFC8A91AA475BB00E3516D /* NSData+CRC8.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DEFC8A51AA475BB00E3516D /* NSData+CRC8.m */; };
-		5DEFC8AA1AA475BB00E3516D /* NSData+SLIP.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DEFC8A71AA475BB00E3516D /* NSData+SLIP.m */; };
-		5DEFC8AB1AA475BB00E3516D /* SLIPBuffer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DEFC8A81AA475BB00E3516D /* SLIPBuffer.swift */; };
-		5DEFC8AE1AA4761600E3516D /* RFduinoManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DEFC8AD1AA4761600E3516D /* RFduinoManager.swift */; };
-		A404E41E1BD369F7000ACAE0 /* dataTypes.swift in Sources */ = {isa = PBXBuildFile; fileRef = A404E41D1BD369F7000ACAE0 /* dataTypes.swift */; settings = {ASSET_TAGS = (); }; };
+		A46970C41BD77AC30048BC71 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A46970BA1BD77AC30048BC71 /* AppDelegate.swift */; settings = {ASSET_TAGS = (); }; };
+		A46970C51BD77AC30048BC71 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = A46970BB1BD77AC30048BC71 /* LaunchScreen.xib */; settings = {ASSET_TAGS = (); }; };
+		A46970C61BD77AC30048BC71 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A46970BD1BD77AC30048BC71 /* Main.storyboard */; settings = {ASSET_TAGS = (); }; };
+		A46970C71BD77AC30048BC71 /* dataTypes.swift in Sources */ = {isa = PBXBuildFile; fileRef = A46970BF1BD77AC30048BC71 /* dataTypes.swift */; settings = {ASSET_TAGS = (); }; };
+		A46970C81BD77AC30048BC71 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A46970C01BD77AC30048BC71 /* Images.xcassets */; settings = {ASSET_TAGS = (); }; };
+		A46970C91BD77AC30048BC71 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = A46970C11BD77AC30048BC71 /* Info.plist */; settings = {ASSET_TAGS = (); }; };
+		A46970CA1BD77AC30048BC71 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A46970C31BD77AC30048BC71 /* ViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		A46970CD1BD77BA10048BC71 /* RFduinoManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A46970CC1BD77BA10048BC71 /* RFduinoManager.swift */; settings = {ASSET_TAGS = (); }; };
+		A46970D61BD77BA70048BC71 /* NSData+CRC8.m in Sources */ = {isa = PBXBuildFile; fileRef = A46970D21BD77BA70048BC71 /* NSData+CRC8.m */; settings = {ASSET_TAGS = (); }; };
+		A46970D71BD77BA70048BC71 /* NSData+SLIP.m in Sources */ = {isa = PBXBuildFile; fileRef = A46970D41BD77BA70048BC71 /* NSData+SLIP.m */; settings = {ASSET_TAGS = (); }; };
+		A46970D81BD77BA70048BC71 /* SLIPBuffer.swift in Sources */ = {isa = PBXBuildFile; fileRef = A46970D51BD77BA70048BC71 /* SLIPBuffer.swift */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -31,26 +32,26 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		5DEFC85C1AA46C2000E3516D /* RFDuino_iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RFDuino_iOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		5DEFC8601AA46C2000E3516D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		5DEFC8611AA46C2000E3516D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		5DEFC8631AA46C2000E3516D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		5DEFC8681AA46C2000E3516D /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		5DEFC86B1AA46C2000E3516D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		5DEFC8711AA46C2000E3516D /* RFDuino_iOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RFDuino_iOSTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5DEFC85C1AA46C2000E3516D /* ios_imu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ios_imu.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5DEFC8711AA46C2000E3516D /* ios_imu.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ios_imu.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5DEFC8761AA46C2000E3516D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5DEFC8771AA46C2000E3516D /* RFDuino_iOSTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RFDuino_iOSTests.swift; sourceTree = "<group>"; };
-		5DEFC8981AA46F9600E3516D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = "../RFduinoUBP/iOS/UBP-Demo/UBP-Demo/Base.lproj/Main.storyboard"; sourceTree = "<group>"; };
-		5DEFC8A21AA475BB00E3516D /* constants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = constants.h; sourceTree = "<group>"; };
-		5DEFC8A31AA475BB00E3516D /* data_types.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = data_types.h; sourceTree = "<group>"; };
-		5DEFC8A41AA475BB00E3516D /* NSData+CRC8.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+CRC8.h"; sourceTree = "<group>"; };
-		5DEFC8A51AA475BB00E3516D /* NSData+CRC8.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+CRC8.m"; sourceTree = "<group>"; };
-		5DEFC8A61AA475BB00E3516D /* NSData+SLIP.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+SLIP.h"; sourceTree = "<group>"; };
-		5DEFC8A71AA475BB00E3516D /* NSData+SLIP.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+SLIP.m"; sourceTree = "<group>"; };
-		5DEFC8A81AA475BB00E3516D /* SLIPBuffer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SLIPBuffer.swift; sourceTree = "<group>"; };
-		5DEFC8AD1AA4761600E3516D /* RFduinoManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RFduinoManager.swift; sourceTree = "<group>"; };
-		A404E41D1BD369F7000ACAE0 /* dataTypes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = dataTypes.swift; sourceTree = "<group>"; };
-		A404E41F1BD6F0D9000ACAE0 /* RFDuino_iOS-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "RFDuino_iOS-Bridging-Header.h"; sourceTree = "<group>"; };
+		A46970BA1BD77AC30048BC71 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A46970BC1BD77AC30048BC71 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		A46970BE1BD77AC30048BC71 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A46970BF1BD77AC30048BC71 /* dataTypes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = dataTypes.swift; sourceTree = "<group>"; };
+		A46970C01BD77AC30048BC71 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		A46970C11BD77AC30048BC71 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A46970C21BD77AC30048BC71 /* ios_imu-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ios_imu-Bridging-Header.h"; sourceTree = "<group>"; };
+		A46970C31BD77AC30048BC71 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A46970CC1BD77BA10048BC71 /* RFduinoManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RFduinoManager.swift; sourceTree = "<group>"; };
+		A46970CF1BD77BA70048BC71 /* constants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = constants.h; sourceTree = "<group>"; };
+		A46970D01BD77BA70048BC71 /* data_types.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = data_types.h; sourceTree = "<group>"; };
+		A46970D11BD77BA70048BC71 /* NSData+CRC8.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+CRC8.h"; sourceTree = "<group>"; };
+		A46970D21BD77BA70048BC71 /* NSData+CRC8.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+CRC8.m"; sourceTree = "<group>"; };
+		A46970D31BD77BA70048BC71 /* NSData+SLIP.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+SLIP.h"; sourceTree = "<group>"; };
+		A46970D41BD77BA70048BC71 /* NSData+SLIP.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+SLIP.m"; sourceTree = "<group>"; };
+		A46970D51BD77BA70048BC71 /* SLIPBuffer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SLIPBuffer.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,7 +75,7 @@
 		5DEFC8531AA46C2000E3516D = {
 			isa = PBXGroup;
 			children = (
-				5DEFC85E1AA46C2000E3516D /* RFDuino_iOS */,
+				A46970B91BD77AC30048BC71 /* ios_imu */,
 				5DEFC8741AA46C2000E3516D /* RFDuino_iOSTests */,
 				5DEFC85D1AA46C2000E3516D /* Products */,
 			);
@@ -83,35 +84,10 @@
 		5DEFC85D1AA46C2000E3516D /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				5DEFC85C1AA46C2000E3516D /* RFDuino_iOS.app */,
-				5DEFC8711AA46C2000E3516D /* RFDuino_iOSTests.xctest */,
+				5DEFC85C1AA46C2000E3516D /* ios_imu.app */,
+				5DEFC8711AA46C2000E3516D /* ios_imu.xctest */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		5DEFC85E1AA46C2000E3516D /* RFDuino_iOS */ = {
-			isa = PBXGroup;
-			children = (
-				5DEFC8A11AA475BB00E3516D /* Utilities */,
-				5DEFC8AC1AA4761600E3516D /* Managers */,
-				5DEFC8631AA46C2000E3516D /* ViewController.swift */,
-				5DEFC8611AA46C2000E3516D /* AppDelegate.swift */,
-				A404E41D1BD369F7000ACAE0 /* dataTypes.swift */,
-				5DEFC8681AA46C2000E3516D /* Images.xcassets */,
-				5DEFC86A1AA46C2000E3516D /* LaunchScreen.xib */,
-				5DEFC8971AA46F9600E3516D /* Main.storyboard */,
-				A404E41F1BD6F0D9000ACAE0 /* RFDuino_iOS-Bridging-Header.h */,
-				5DEFC85F1AA46C2000E3516D /* Supporting Files */,
-			);
-			path = RFDuino_iOS;
-			sourceTree = "<group>";
-		};
-		5DEFC85F1AA46C2000E3516D /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				5DEFC8601AA46C2000E3516D /* Info.plist */,
-			);
-			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
 		5DEFC8741AA46C2000E3516D /* RFDuino_iOSTests */ = {
@@ -131,36 +107,52 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		5DEFC8A11AA475BB00E3516D /* Utilities */ = {
+		A46970B91BD77AC30048BC71 /* ios_imu */ = {
 			isa = PBXGroup;
 			children = (
-				5DEFC8A21AA475BB00E3516D /* constants.h */,
-				5DEFC8A31AA475BB00E3516D /* data_types.h */,
-				5DEFC8A41AA475BB00E3516D /* NSData+CRC8.h */,
-				5DEFC8A51AA475BB00E3516D /* NSData+CRC8.m */,
-				5DEFC8A61AA475BB00E3516D /* NSData+SLIP.h */,
-				5DEFC8A71AA475BB00E3516D /* NSData+SLIP.m */,
-				5DEFC8A81AA475BB00E3516D /* SLIPBuffer.swift */,
+				A46970CE1BD77BA70048BC71 /* Utilities */,
+				A46970CB1BD77BA10048BC71 /* Managers */,
+				A46970BA1BD77AC30048BC71 /* AppDelegate.swift */,
+				A46970BB1BD77AC30048BC71 /* LaunchScreen.xib */,
+				A46970BD1BD77AC30048BC71 /* Main.storyboard */,
+				A46970BF1BD77AC30048BC71 /* dataTypes.swift */,
+				A46970C01BD77AC30048BC71 /* Images.xcassets */,
+				A46970C11BD77AC30048BC71 /* Info.plist */,
+				A46970C21BD77AC30048BC71 /* ios_imu-Bridging-Header.h */,
+				A46970C31BD77AC30048BC71 /* ViewController.swift */,
 			);
-			name = Utilities;
-			path = ../Utilities;
+			path = ios_imu;
 			sourceTree = "<group>";
 		};
-		5DEFC8AC1AA4761600E3516D /* Managers */ = {
+		A46970CB1BD77BA10048BC71 /* Managers */ = {
 			isa = PBXGroup;
 			children = (
-				5DEFC8AD1AA4761600E3516D /* RFduinoManager.swift */,
+				A46970CC1BD77BA10048BC71 /* RFduinoManager.swift */,
 			);
-			name = Managers;
-			path = ../Managers;
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		A46970CE1BD77BA70048BC71 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				A46970CF1BD77BA70048BC71 /* constants.h */,
+				A46970D01BD77BA70048BC71 /* data_types.h */,
+				A46970D11BD77BA70048BC71 /* NSData+CRC8.h */,
+				A46970D21BD77BA70048BC71 /* NSData+CRC8.m */,
+				A46970D31BD77BA70048BC71 /* NSData+SLIP.h */,
+				A46970D41BD77BA70048BC71 /* NSData+SLIP.m */,
+				A46970D51BD77BA70048BC71 /* SLIPBuffer.swift */,
+			);
+			name = Utilities;
+			path = Managers/Utilities;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		5DEFC85B1AA46C2000E3516D /* RFDuino_iOS */ = {
+		5DEFC85B1AA46C2000E3516D /* ios_imu */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 5DEFC87B1AA46C2000E3516D /* Build configuration list for PBXNativeTarget "RFDuino_iOS" */;
+			buildConfigurationList = 5DEFC87B1AA46C2000E3516D /* Build configuration list for PBXNativeTarget "ios_imu" */;
 			buildPhases = (
 				5DEFC8581AA46C2000E3516D /* Sources */,
 				5DEFC8591AA46C2000E3516D /* Frameworks */,
@@ -170,14 +162,14 @@
 			);
 			dependencies = (
 			);
-			name = RFDuino_iOS;
+			name = ios_imu;
 			productName = RFDuino_iOS;
-			productReference = 5DEFC85C1AA46C2000E3516D /* RFDuino_iOS.app */;
+			productReference = 5DEFC85C1AA46C2000E3516D /* ios_imu.app */;
 			productType = "com.apple.product-type.application";
 		};
-		5DEFC8701AA46C2000E3516D /* RFDuino_iOSTests */ = {
+		5DEFC8701AA46C2000E3516D /* ios_imuTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 5DEFC87E1AA46C2000E3516D /* Build configuration list for PBXNativeTarget "RFDuino_iOSTests" */;
+			buildConfigurationList = 5DEFC87E1AA46C2000E3516D /* Build configuration list for PBXNativeTarget "ios_imuTests" */;
 			buildPhases = (
 				5DEFC86D1AA46C2000E3516D /* Sources */,
 				5DEFC86E1AA46C2000E3516D /* Frameworks */,
@@ -188,9 +180,9 @@
 			dependencies = (
 				5DEFC8731AA46C2000E3516D /* PBXTargetDependency */,
 			);
-			name = RFDuino_iOSTests;
+			name = ios_imuTests;
 			productName = RFDuino_iOSTests;
-			productReference = 5DEFC8711AA46C2000E3516D /* RFDuino_iOSTests.xctest */;
+			productReference = 5DEFC8711AA46C2000E3516D /* ios_imu.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -213,7 +205,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 5DEFC8571AA46C2000E3516D /* Build configuration list for PBXProject "RFDuino_iOS" */;
+			buildConfigurationList = 5DEFC8571AA46C2000E3516D /* Build configuration list for PBXProject "ios_imu" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -226,8 +218,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				5DEFC85B1AA46C2000E3516D /* RFDuino_iOS */,
-				5DEFC8701AA46C2000E3516D /* RFDuino_iOSTests */,
+				5DEFC85B1AA46C2000E3516D /* ios_imu */,
+				5DEFC8701AA46C2000E3516D /* ios_imuTests */,
 			);
 		};
 /* End PBXProject section */
@@ -237,9 +229,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5DEFC8991AA46F9600E3516D /* Main.storyboard in Resources */,
-				5DEFC86C1AA46C2000E3516D /* LaunchScreen.xib in Resources */,
-				5DEFC8691AA46C2000E3516D /* Images.xcassets in Resources */,
+				A46970C91BD77AC30048BC71 /* Info.plist in Resources */,
+				A46970C81BD77AC30048BC71 /* Images.xcassets in Resources */,
+				A46970C51BD77AC30048BC71 /* LaunchScreen.xib in Resources */,
+				A46970C61BD77AC30048BC71 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -257,13 +250,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5DEFC8AA1AA475BB00E3516D /* NSData+SLIP.m in Sources */,
-				A404E41E1BD369F7000ACAE0 /* dataTypes.swift in Sources */,
-				5DEFC8641AA46C2000E3516D /* ViewController.swift in Sources */,
-				5DEFC8621AA46C2000E3516D /* AppDelegate.swift in Sources */,
-				5DEFC8AB1AA475BB00E3516D /* SLIPBuffer.swift in Sources */,
-				5DEFC8A91AA475BB00E3516D /* NSData+CRC8.m in Sources */,
-				5DEFC8AE1AA4761600E3516D /* RFduinoManager.swift in Sources */,
+				A46970CA1BD77AC30048BC71 /* ViewController.swift in Sources */,
+				A46970D61BD77BA70048BC71 /* NSData+CRC8.m in Sources */,
+				A46970CD1BD77BA10048BC71 /* RFduinoManager.swift in Sources */,
+				A46970C41BD77AC30048BC71 /* AppDelegate.swift in Sources */,
+				A46970D71BD77BA70048BC71 /* NSData+SLIP.m in Sources */,
+				A46970D81BD77BA70048BC71 /* SLIPBuffer.swift in Sources */,
+				A46970C71BD77AC30048BC71 /* dataTypes.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -280,27 +273,26 @@
 /* Begin PBXTargetDependency section */
 		5DEFC8731AA46C2000E3516D /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 5DEFC85B1AA46C2000E3516D /* RFDuino_iOS */;
+			target = 5DEFC85B1AA46C2000E3516D /* ios_imu */;
 			targetProxy = 5DEFC8721AA46C2000E3516D /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		5DEFC86A1AA46C2000E3516D /* LaunchScreen.xib */ = {
+		A46970BB1BD77AC30048BC71 /* LaunchScreen.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
-				5DEFC86B1AA46C2000E3516D /* Base */,
+				A46970BC1BD77AC30048BC71 /* Base */,
 			);
 			name = LaunchScreen.xib;
 			sourceTree = "<group>";
 		};
-		5DEFC8971AA46F9600E3516D /* Main.storyboard */ = {
+		A46970BD1BD77AC30048BC71 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				5DEFC8981AA46F9600E3516D /* Base */,
+				A46970BE1BD77AC30048BC71 /* Base */,
 			);
 			name = Main.storyboard;
-			path = ..;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -393,13 +385,13 @@
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				INFOPLIST_FILE = RFDuino_iOS/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				INFOPLIST_FILE = ios_imu/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "RYS.$(PRODUCT_NAME:rfc1034identifier)";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = ios_imu;
 				PROVISIONING_PROFILE = "";
-				SWIFT_OBJC_BRIDGING_HEADER = "/Users/empire/Documents/GitHub/RFDuinoSwift/RFDuino_iOS/RFDuino_iOS-Bridging-Header.h";
+				SWIFT_OBJC_BRIDGING_HEADER = "/Users/empire/Documents/GitHub/RFduino/ios_imu_project/ios_imu/ios_imu-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -412,13 +404,13 @@
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				INFOPLIST_FILE = RFDuino_iOS/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				INFOPLIST_FILE = ios_imu/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "RYS.$(PRODUCT_NAME:rfc1034identifier)";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = ios_imu;
 				PROVISIONING_PROFILE = "";
-				SWIFT_OBJC_BRIDGING_HEADER = "/Users/empire/Documents/GitHub/RFDuinoSwift/RFDuino_iOS/RFDuino_iOS-Bridging-Header.h";
+				SWIFT_OBJC_BRIDGING_HEADER = "/Users/empire/Documents/GitHub/RFduino/ios_imu_project/ios_imu/ios_imu-Bridging-Header.h";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
@@ -438,8 +430,8 @@
 				INFOPLIST_FILE = RFDuino_iOSTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "RYS.$(PRODUCT_NAME:rfc1034identifier)";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RFDuino_iOS.app/RFDuino_iOS";
+				PRODUCT_NAME = ios_imu;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ios_imu.app/ios_imu";
 			};
 			name = Debug;
 		};
@@ -454,15 +446,15 @@
 				INFOPLIST_FILE = RFDuino_iOSTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "RYS.$(PRODUCT_NAME:rfc1034identifier)";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RFDuino_iOS.app/RFDuino_iOS";
+				PRODUCT_NAME = ios_imu;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ios_imu.app/ios_imu";
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		5DEFC8571AA46C2000E3516D /* Build configuration list for PBXProject "RFDuino_iOS" */ = {
+		5DEFC8571AA46C2000E3516D /* Build configuration list for PBXProject "ios_imu" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				5DEFC8791AA46C2000E3516D /* Debug */,
@@ -471,7 +463,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		5DEFC87B1AA46C2000E3516D /* Build configuration list for PBXNativeTarget "RFDuino_iOS" */ = {
+		5DEFC87B1AA46C2000E3516D /* Build configuration list for PBXNativeTarget "ios_imu" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				5DEFC87C1AA46C2000E3516D /* Debug */,
@@ -480,7 +472,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		5DEFC87E1AA46C2000E3516D /* Build configuration list for PBXNativeTarget "RFDuino_iOSTests" */ = {
+		5DEFC87E1AA46C2000E3516D /* Build configuration list for PBXNativeTarget "ios_imuTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				5DEFC87F1AA46C2000E3516D /* Debug */,

@@ -1,0 +1,2 @@
+#define MEASUREMENT_v1 0xD0A2
+#define MEASUREMENT_v2 0xB0C8

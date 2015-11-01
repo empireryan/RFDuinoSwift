@@ -16,8 +16,21 @@ class ViewController: UIViewController, RFduinoManagerDelegate {
     
     @IBOutlet weak var connectButton: UIButton!
     @IBOutlet weak var connectionStatusLabel: UILabel!
-    @IBOutlet weak var valueLabel: UILabel!
     
+    
+    @IBOutlet weak var accelX: UILabel!
+    @IBOutlet weak var accelY: UILabel!
+    @IBOutlet weak var accelZ: UILabel!
+    
+    @IBOutlet weak var magX: UILabel!
+    @IBOutlet weak var magY: UILabel!
+    @IBOutlet weak var magZ: UILabel!
+    
+    @IBOutlet weak var gyroX: UILabel!
+    @IBOutlet weak var gyroY: UILabel!
+    @IBOutlet weak var gyroZ: UILabel!
+    
+
     @IBAction func didTapConnectButton(sender: UIButton) {
         
         switch (rfdManager.peripheralState) {
@@ -25,7 +38,7 @@ class ViewController: UIViewController, RFduinoManagerDelegate {
             case .Unassigned:
                 let serviceUUIDs:[CBUUID]? = [CBUUID(string: "2220")]
                 rfdManager.scanForRFduinos(serviceUUIDs)
-                
+            
             case .Scanning:
                 break
                 
@@ -102,28 +115,35 @@ class ViewController: UIViewController, RFduinoManagerDelegate {
     }
     
     func rfduinoManagerReceivedMessage(messageIdentifier: UInt16, txFlags: UInt8, payloadData: NSData) {
-        var index: Int
         
         //		println("Received SLIP payload with ID = \(messageIdentifier)")
         
         //var measurementPayload  = MeasurementType(A: 0, B: 0, C: 0, D: 0, E: 0, F: 0, G: 0, H: 0, Z: 0, J: 0, K: 0, L: 0)
         var measurementPayload = MeasurementType()
+        var lastPayload = MeasurementType()
+        
         payloadData.getBytes(&measurementPayload, length:payloadData.length)
         
         measurementPayload.load()
-        for measurement in measurementPayload.AllValues{
-            print("Measurement:\(measurement)")
+        if(measurementPayload.AllValues != lastPayload.AllValues){
+            for measurement in measurementPayload.AllValues{
+                print("Measurement:\(measurement)")
+            }
+            // todo: this ought to be a function!
+            accelX.text = "\(measurementPayload.A)"
+            accelY.text = "\(measurementPayload.B)"
+            accelZ.text = "\(measurementPayload.C)"
+            magX.text = "\(measurementPayload.D)"
+            magY.text = "\(measurementPayload.E)"
+            magZ.text = "\(measurementPayload.F)"
+            gyroX.text = "\(measurementPayload.G)"
+            gyroY.text = "\(measurementPayload.H)"
+            gyroZ.text = "\(measurementPayload.Z)"
+            print("Measurement = \(payloadData)")
         }
-        valueLabel.text = "\(measurementPayload.A)"
         
-        /**
-        println("Measurement = \(payloadData)")
-        println("PayloadData \(payloadData.length)")
-        
-        for index = 0; index < payloadData.length; index += 8{
-            valueLabel.text = "\(measurementPayload.(A + index))"
-        }
-        **/
+        lastPayload = measurementPayload
+
     }
 }
 

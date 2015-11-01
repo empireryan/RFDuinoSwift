@@ -8,8 +8,8 @@
 //  Use this file to import your target's public headers that you would like to expose to Swift.
 //
 
-#ifndef RFDuino_iOS_RFDuino_iOS_Bridging_Header_h
-#define RFDuino_iOS_RFDuino_iOS_Bridging_Header_h
+#ifndef ios_imu_Bridging_Header_h
+#define ios_imu_Bridging_Header_h
 
 #import "NSData+CRC8.h"
 #import "NSData+SLIP.h"
